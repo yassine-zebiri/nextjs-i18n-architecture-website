@@ -1,0 +1,81 @@
+{
+  "HomePage": {
+    "Hero": {
+      "spanYellow": "未来を設計する",
+      "titleOne": "建築ビジョン",
+      "titleTwo": "現代アルジェリアを築く",
+      "description": "私たちは建築設計およびインテリアデザイン分野において最高水準のサービスを提供しています。ぜひ当社のプロジェクトとサービスをご覧ください。",
+      "btnOne": "プロジェクトを見る",
+      "btnTwo": "お問い合わせ"
+    },
+    "ServicesSection": {
+      "titleOne": "総合エンジニアリングサービス",
+      "description": "国際的な品質基準に基づき、建築およびエンジニアリング分野における幅広いコンサルティングサービスを提供しています。",
+      "BoxTOne": "建築設計",
+      "BoxDOne": "現代のニーズに応え、文化的価値を尊重した持続可能で革新的なデザイン。",
+      "BoxTTwo": "土木工学",
+      "BoxDTwo": "建築物および大規模プロジェクトの安全性と安定性を確保する精密な構造解析。",
+      "BoxTThree": "都市計画",
+      "BoxDThree": "調和の取れた統合的な都市環境を創造するための戦略的計画。",
+      "BoxTFour": "インテリアデザイン",
+      "BoxDFour": "快適さと機能性を兼ね備えた洗練された空間設計。"
+    },
+    "NumberSection": {
+      "TOne": "経験年数",
+      "TTwo": "完了プロジェクト数",
+      "TThree": "エンジニア・専門家",
+      "TFour": "顧客満足度"
+    },
+    "ProjectsSection": {
+      "titleOne": "最新プロジェクト",
+      "description": "建築の卓越性と革新への取り組みを示す代表的な実績をご紹介します。",
+      "btnOne": "プロジェクト一覧",
+      "itemTOne": "オラン市 本社ビル",
+      "itemDOne": "建築設計 - オラン",
+      "itemTTwo": "バブ・エズアール スポーツセンター",
+      "itemDTwo": "設計・施工 - バブ・エズアール",
+      "itemTThree": "オラン市 医療クリニック",
+      "itemDThree": "インテリア設計 - オラン"
+    },
+    "ContactUsSection": {
+      "titleOne": "進行中のプロジェクトはありますか？",
+      "descriptionOne": "お客様のアイデアを具体的な形へと実現します。専門チームがご予算と目標に合わせた最適なソリューションをご提案いたします。",
+      "titleTwo": "お問い合わせ",
+      "descriptionTwo": "ご相談・お見積り依頼",
+      "LabelOne": "お名前",
+      "LabelTwo": "メールアドレス",
+      "LabelThree": "メッセージ",
+      "placeHolder": "こちらにご記入ください...",
+      "btnOne": "送信"
+    }
+  },
+  "Footer": {
+    "description": "アルジェリアを代表する建築コンサルティング企業として、革新的な設計と総合エンジニアリングソリューションを提供し、より良い未来を築きます。",
+    "BoxTOne": "クイックリンク",
+    "BoxTOneList": {
+      "one": "ホーム",
+      "two": "サービス",
+      "three": "プロジェクト",
+      "four": "会社概要"
+    },
+    "BoxTTwo": "サービス一覧",
+    "BoxTTwoList": {
+      "one": "建築設計",
+      "two": "エンジニアリング",
+      "three": "都市計画",
+      "four": "監理・監督"
+    },
+    "BoxTThree": "連絡先情報",
+    "BoxTThreeList": {
+      "one": "アルジェ市 ハイドラ地区 05番通り",
+      "two": "contact@company-architect.dz"
+    },
+    "titleOne": "© Architect 2026 エンジニアリングコンサルティング。無断転載を禁じます。"
+  },
+  "HeaderNavBar": {
+    "TitleOne": "ホーム",
+    "TitleTwo": "サービス",
+    "TitleThree": "プロジェクト",
+    "TitleFour": "お問い合わせ"
+  }
+}

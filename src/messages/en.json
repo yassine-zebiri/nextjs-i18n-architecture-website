@@ -1,0 +1,81 @@
+{
+  "HomePage": {
+    "Hero": {
+      "spanYellow": "We Design the Future",
+      "titleOne": "Architectural Vision",
+      "titleTwo": "Building Modern Algeria",
+      "description": "We provide the best services in architecture and interior design. Discover our projects and services today!",
+      "btnOne": "Explore Our Projects",
+      "btnTwo": "Contact Us"
+    },
+    "ServicesSection": {
+      "titleOne": "Comprehensive Engineering Services",
+      "description": "We offer a wide range of engineering and architectural consulting services with the highest international quality standards.",
+      "BoxTOne": "Architectural Design",
+      "BoxDOne": "Modern and sustainable designs that meet contemporary needs while respecting cultural identity.",
+      "BoxTTwo": "Civil Engineering",
+      "BoxDTwo": "Accurate structural studies ensuring the safety and stability of buildings and large-scale projects.",
+      "BoxTThree": "Urban Planning",
+      "BoxDThree": "Strategic planning of spaces and cities to create integrated urban environments.",
+      "BoxTFour": "Interior Design",
+      "BoxDFour": "Creative interior space planning that provides comfort and luxury."
+    },
+    "NumberSection": {
+      "TOne": "Years of Experience",
+      "TTwo": "Completed Projects",
+      "TThree": "Engineers & Experts",
+      "TFour": "Client Satisfaction"
+    },
+    "ProjectsSection": {
+      "titleOne": "Our Latest Projects",
+      "description": "A showcase of our most notable achievements reflecting our commitment to architectural excellence and innovation.",
+      "btnOne": "View Our Projects",
+      "itemTOne": "Head Office Building in Oran",
+      "itemDOne": "Architectural Design - Oran",
+      "itemTTwo": "Sports Center in Bab Ezzouar",
+      "itemDTwo": "Design & Execution - Bab Ezzouar",
+      "itemTThree": "Medical Clinic in Oran",
+      "itemDThree": "Interior Design - Oran"
+    },
+    "ContactUsSection": {
+      "titleOne": "Do You Have an Upcoming Project?",
+      "descriptionOne": "Let us turn your idea into reality. Our team of experts is ready to provide the best engineering solutions that match your budget and ambitions.",
+      "titleTwo": "Contact Us",
+      "descriptionTwo": "Request a Consultation or Quote",
+      "LabelOne": "Name",
+      "LabelTwo": "Email",
+      "LabelThree": "Message",
+      "placeHolder": "Write here...",
+      "btnOne": "Send"
+    }
+  },
+  "Footer": {
+    "description": "A leading architectural consultancy firm in Algeria. We are committed to delivering innovative designs and integrated engineering solutions to build a better future.",
+    "BoxTOne": "Quick Links",
+    "BoxTOneList": {
+      "one": "Home",
+      "two": "Our Services",
+      "three": "Our Projects",
+      "four": "About Us"
+    },
+    "BoxTTwo": "Our Services",
+    "BoxTTwoList": {
+      "one": "Architectural Design",
+      "two": "Engineering",
+      "three": "Urban Planning",
+      "four": "Supervision & Monitoring"
+    },
+    "BoxTThree": "Contact Information",
+    "BoxTThreeList": {
+      "one": "Algiers, Hydra, Street 05",
+      "two": "contact@company-architect.dz"
+    },
+    "titleOne": "© Architect 2026 Engineering Consultancy. All rights reserved."
+  },
+  "HeaderNavBar": {
+    "TitleOne": "Home",
+    "TitleTwo": "Our Services",
+    "TitleThree": "Our Projects",
+    "TitleFour": "Contact Us"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "HomePage": {
+    "Hero": {
+      "spanYellow": "Nous façonnons l’avenir",
+      "titleOne": "Excellence Architecturale",
+      "titleTwo": "Bâtir l’Algérie de Demain",
+      "description": "Nous accompagnons nos clients avec des solutions architecturales et techniques innovantes, alliant performance, esthétisme et durabilité.",
+      "btnOne": "Découvrir Nos Réalisations",
+      "btnTwo": "Nous Contacter"
+    },
+    "ServicesSection": {
+      "titleOne": "Expertise & Ingénierie Globale",
+      "description": "Notre bureau d’études propose des prestations complètes en architecture et en ingénierie, conformes aux standards internationaux les plus exigeants.",
+      "BoxTOne": "Architecture & Conception",
+      "BoxDOne": "Des concepts innovants et durables, pensés pour répondre aux enjeux contemporains tout en valorisant l’identité culturelle.",
+      "BoxTTwo": "Ingénierie & Génie Civil",
+      "BoxDTwo": "Des études techniques rigoureuses garantissant sécurité, performance et pérennité des ouvrages.",
+      "BoxTThree": "Urbanisme & Planification",
+      "BoxDThree": "Une approche stratégique pour concevoir des espaces urbains harmonieux, fonctionnels et durables.",
+      "BoxTFour": "Architecture d’Intérieur",
+      "BoxDFour": "Création d’espaces intérieurs élégants et optimisés, alliant confort, esthétique et fonctionnalité."
+    },
+    "NumberSection": {
+      "TOne": "Années d’Expertise",
+      "TTwo": "Projets Réalisés",
+      "TThree": "Experts & Ingénieurs",
+      "TFour": "Taux de Satisfaction"
+    },
+    "ProjectsSection": {
+      "titleOne": "Nos Réalisations Récentes",
+      "description": "Un aperçu de projets emblématiques illustrant notre engagement envers l’innovation, la qualité et l’excellence architecturale.",
+      "btnOne": "Explorer Nos Projets",
+      "itemTOne": "Siège Administratif à Oran",
+      "itemDOne": "Étude & Conception Architecturale - Oran",
+      "itemTTwo": "Complexe Sportif à Bab Ezzouar",
+      "itemDTwo": "Conception & Réalisation - Bab Ezzouar",
+      "itemTThree": "Clinique Médicale à Oran",
+      "itemDThree": "Architecture Intérieure - Oran"
+    },
+    "ContactUsSection": {
+      "titleOne": "Un Projet en Perspective ?",
+      "descriptionOne": "Confiez-nous votre vision. Notre équipe d’experts vous accompagne avec des solutions sur mesure, adaptées à vos objectifs et à votre budget.",
+      "titleTwo": "Contact & Consultation",
+      "descriptionTwo": "Demandez une étude ou un devis personnalisé",
+      "LabelOne": "Nom Complet",
+      "LabelTwo": "Adresse Email",
+      "LabelThree": "Votre Message",
+      "placeHolder": "Saisissez votre message ici...",
+      "btnOne": "Envoyer la Demande"
+    }
+  },
+  "Footer": {
+    "description": "Bureau d’études et de conseil en architecture en Algérie, reconnu pour son expertise, son innovation et son engagement envers l’excellence.",
+    "BoxTOne": "Accès Rapide",
+    "BoxTOneList": {
+      "one": "Accueil",
+      "two": "Expertise",
+      "three": "Réalisations",
+      "four": "Notre Cabinet"
+    },
+    "BoxTTwo": "Domaines d’Intervention",
+    "BoxTTwoList": {
+      "one": "Architecture",
+      "two": "Ingénierie",
+      "three": "Urbanisme",
+      "four": "Suivi & Coordination"
+    },
+    "BoxTThree": "Coordonnées",
+    "BoxTThreeList": {
+      "one": "Alger – Hydra – Rue 05",
+      "two": "contact@company-architect.dz"
+    },
+    "titleOne": "© Architect 2026 – Cabinet de Conseil en Ingénierie. Tous droits réservés."
+  },
+  "HeaderNavBar": {
+    "TitleOne": "Accueil",
+    "TitleTwo": "Expertise",
+    "TitleThree": "Réalisations",
+    "TitleFour": "Contact"
+  }
+}

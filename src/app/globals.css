@@ -1,0 +1,189 @@
+@import "tailwindcss";
+/* Note: You may need to change the path to fit your project structure */
+@source '../../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}';
+@custom-variant dark (&:is(.dark *));
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+@layer base {
+  html {
+    @apply transition-colors duration-300 ease-in-out;
+  }
+
+  body {
+    @apply transition-colors duration-300 ease-in-out;
+  }
+
+  button, input, textarea, select {
+    @apply transition-colors duration-300 ease-in-out;
+  }
+}
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --bg-primary:var(--color-primary);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: 210 20% 98%;
+  --foreground: 222 47% 11%;
+  --color-primary:#0f1729;
+  --color-primary-clear:#20325c;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  direction: rtl;
+  @apply bg-[#fbfbfb] dark:bg-[#232f44] dark:text-[#f1f5f9] text-black ;
+}
+
+
+.bg-primary{
+  background-color: var(--color-primary);
+}
+.bg-primary-clear{
+  background-color: var(--color-primary-clear);
+  opacity: 0.8;
+}
+.header{
+  @apply flex sm:justify-between items-center dark:bg-[#1e293b] dark:border-b-[#2a384b];
+  
+  background-color: #ffffffd2;
+  backdrop-filter: blur(10px);
+}
+.header .navbar-link{
+  color: var(--foreground);
+  font-weight: 500;
+  padding: 0.25rem 0.5rem;
+  transition: color 0.3s ease;
+}
+.header .navbar-link:hover{
+  color: var(--color-primary);
+}
+.header .logo{
+  @apply w-12 h-12 rounded-md border bg-white border-gray-300 dark:border-[#1f2937] flex justify-center items-center text-gray-600 dark:text-[#cbd5e1] font-bold; 
+}
+.hero-section{
+  background-image: url('/assets/hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 1800px;
+  margin: auto;
+  
+}
+.hero-section .hero-cover{
+  background: linear-gradient(to top,rgba(158, 158, 173, 0.787),rgba(46, 47, 75, 0.65));
+  backdrop-filter: blur(3px);
+  width: 100%;
+  max-width: 1800px;
+  margin: auto;
+  height: 100vh;
+  max-height: 720px;
+}
+.hero-description{
+  @apply text-white text-center sm:text-start sm:text-base text-sm sm:mt-8 mt-4 m-auto;
+}
+
+.services-section{
+  background-color: var(--color-background);
+  @apply  dark:bg-[#1e293b];
+}
+.card-service{
+  @apply col-span-1 border p-4 px-6 w-full dark:bg-[#111827] bg-white 
+  rounded-lg border-gray-200 dark:border-[#1f2937] shadow-sm transition-transform duration-300;
+}
+.card-service:hover{
+  @apply translate-y-[-5px] shadow-lg;  
+}
+
+.card-service .card-icon{
+  @apply sm:w-12 sm:h-12 w-10 h-10 border border-gray-200 rounded-lg bg-gray-200 flex justify-center items-center mb-3 text-gray-600;
+}
+.card-service .card-title h4{
+  @apply sm:text-[16px] text-[14px];
+  font-weight: 600;
+  color: var(--foreground);
+  margin-bottom: 0.25rem;
+
+}
+.card-service .card-title p{
+  @apply sm:text-sm text-xs font-medium text-gray-500 dark:text-[#cbd5e1];
+}
+
+.number-section{
+  background-color: var(--bg-primary);
+}
+.number-section .box-number{
+  @apply col-span-1 p-6 rounded-lg text-center; 
+}
+.number-section .box-number h4{
+  @apply md:text-4xl sm:text-3xl text-2xl font-bold text-amber-300 mb-1 ;
+}
+.number-section .box-number p{
+  @apply text-sm sm:text-lg font-medium text-gray-400 dark:text-[#cbd5e1];
+}
+
+
+
+
+
+.section{
+  @apply max-w-[1800px] m-auto sm:px-4 px-2 sm:py-12 py-6  ;
+}
+
+.flex-centered{
+  @apply flex justify-center items-center;
+}
+.flex-centered-logo{
+  @apply flex justify-center items-center sm:justify-start;
+}
+.btn{
+  @apply sm:px-8 px-4 sm:py-6 py-3 font-medium text-sm sm:text-base cursor-pointer;
+}
+.btn-sm{
+  @apply px-4 py-2 text-xs sm:text-sm;
+}
+.btn-primary{
+  @apply bg-amber-400 font-semibold rounded-tl-lg border border-white text-black 
+   transition-colors duration-300;
+}
+.btn-primary:hover{
+  @apply bg-amber-500;
+}
+.btn-secondary{
+  @apply bg-gray-400 font-semibold rounded-tl-lg border border-white text-white transition-colors duration-300;
+}
+.btn-secondary:hover{
+  @apply bg-gray-500;
+}
+
+.btn-outline-secondary{
+  @apply bg-transparent font-semibold rounded-tl-lg border border-gray-400 text-gray-400 transition-colors duration-300;
+}
+.btn-outline-secondary:hover{
+  @apply bg-gray-400 text-white;
+}
+
+
+.form-input-label {
+  @apply block text-xs sm:text-sm font-medium text-gray-700 mb-1;
+}
+.form-input-label .required {
+  @apply text-red-500;
+}
+.form-input-label label{
+  @apply block text-xs sm:text-sm font-medium text-white mb-2;
+}
+.form-input-label input ,
+.form-input-label textarea{
+  @apply w-full outline-none dark:text-[#f1f5f9] bg-white dark:bg-[#111827] border border-gray-300 dark:border-[#1f2937] rounded-md px-3 py-2 
+  focus:outline-none focus:ring-1 focus:ring-amber-500 focus:border-amber-500 dark:placeholder-[#64748b] ;
+} 

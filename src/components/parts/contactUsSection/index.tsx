@@ -6,19 +6,19 @@ export const ContactUsSectionComponent=()=>{
     const t=useTranslations("HomePage.ContactUsSection");
     return(
         <div id="contactUs" className="section ">
-            <div className="max-w-250 my-0 m-auto p-6 bg-primary rounded-lg">
+            <div className="max-w-250 my-0 m-auto sm:p-6 p-3  bg-primary rounded-lg">
                 <div className="grid sm:grid-cols-2 grid-cols-1">
                     <div className="flex-centered">
                         <div className="">
-                            <h3 className="lg:text-4xl text-xl sm:text-2xl md:text-3xl  font-bold text-white">{t("titleOne")}</h3>
-                            <p className="text-gray-400 text-xs sm:text-sm font-medium mt-4">{t("descriptionOne")}</p>
+                            <h3 className="text-lg sm:text-xl md:text-2xl lg:text-4xl font-bold text-white">{t("titleOne")}</h3>
+                            <p className="text-gray-300 text-sm sm:text-base font-medium mt-3">{t("descriptionOne")}</p>
                         </div>  
                     </div>
-                    <div>
+                    <div className="border-t border-gray-500 mt-3 sm:mt-0 sm:border-none">
                         <div className="flex flex-col gap-3">
                             <div className="py-4 text-center">
                                 <h3 className="md:text-2xl sm:text-xl text-lg font-bold text-white ">{t("titleTwo")}</h3>
-                                <p  className="text-gray-400 text-xs sm:text-sm font-medium mt-3">{t("descriptionTwo")}</p>
+                                <p  className="text-gray-400 text-sm font-medium mt-3">{t("descriptionTwo")}</p>
                             </div>
                             <div className="form-input-label">
                                 <label htmlFor="">{t("LabelOne")}</label>

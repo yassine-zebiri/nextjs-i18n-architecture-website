@@ -4,7 +4,8 @@ import { NumberSectionComponent } from "@/src/components/parts/NumberSection"
 import { ProjectSectionComponent } from "@/src/components/parts/ProjectsSection";
 import { ServicesSetionComponent } from "@/src/components/parts/servicesSetcion"
 
-export default function Home() {
+export default async function Home() {
+
   return (
     <div>
       <div > 

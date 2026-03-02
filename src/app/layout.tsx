@@ -10,7 +10,7 @@ type Props = {
 };
 
 export const viewport:Viewport={
-  themeColor:"#491899",
+  themeColor:"#1e293b",
   width: 'device-width',
   initialScale: 1,
   maximumScale: 1,
@@ -27,7 +27,8 @@ export async function generateStaticParams(){
 export default function RootLayout({children}: Props) {
   return (
     <>
-      {children}
+        {children}
     </>
+     
   )
 }

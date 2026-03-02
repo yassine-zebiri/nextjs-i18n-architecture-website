@@ -3,8 +3,8 @@ import { useTranslations } from "next-intl"
 export const NumberSectionComponent=()=>{
     const t=useTranslations("HomePage.NumberSection");
     return(
-        <div className="section number-section bg-primary">
-            <div className="max-w-360 m-auto grid md:grid-cols-4 grid-cols-2 ">
+        <div className="section number-section bg-[#0f1729]">
+            <div className="max-w-360 m-auto grid md:grid-cols-4 grid-cols-2">
                 <div className="box-number">
                     <h4>
                         +15
